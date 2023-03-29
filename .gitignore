@@ -1,0 +1,39 @@
+# debug file
+*debug
+
+# go build 的文件
+main.exe
+
+# ignore log
+*.log
+
+# for macOS
+*.DS_Store
+
+# tmp folder
+/tmp/*
+!/tmp/.keep
+
+# 配置中心
+config_file_cache.json
+
+# 本地配置文件
+*.local.json
+
+# idea config
+.idea
+
+# 测试二进制文件
+*.test
+
+# vendor
+/vendor/*
+!/vendor/.keep
+
+go.sum
+
+*.coverprofile
+*.out
+
+go.sum
+go.mod
